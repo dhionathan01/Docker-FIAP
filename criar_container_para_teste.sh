@@ -6,3 +6,4 @@ docker run -p 5432:5432 -d \
 --name postgresFiapTeste \
 postgres
  
+docker build -t python_script_para_test.py 
