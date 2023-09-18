@@ -11,3 +11,8 @@
 Exemplo: ![Logando no postgree](image-1.png)
 - pic para exemplificar:
 - ![Executando Querys no terminal](image.png)
+- Criando o container no diretorio com o dockerfile
+- ```docker build -t python-pg-script .```
+- Executando o container fazendo conexão com o banco e consumindo dados:
+  ```docker run --name python-test-executando python-pg-script```
+- ![Rodando dois container](image-2.png)
