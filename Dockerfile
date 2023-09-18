@@ -16,4 +16,4 @@ COPY python_script_para_test.py /code/
 
 # executa o código em python
 
-CMD ["python", "criar_container-para_test.sh"]
+CMD ["python", "python_script_para_test.py"]

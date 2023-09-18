@@ -8,7 +8,7 @@ conn = connect(
 cursor = conn.cursor()
 cursor.execute(f"SELECT * FROM my_table;")
 
-for i, record in enumerate(cursor);
+for i, record in enumerate(cursor):
     print("\n", type(record))
     print(record)
 
